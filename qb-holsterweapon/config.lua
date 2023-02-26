@@ -1,0 +1,86 @@
+----------------------------------------------------------------
+-- Copyright © 2019 by Guy Shefer
+-- Made By: Guy293
+-- GitHub: https://github.com/Guy293
+-- Fivem Forum: https://forum.fivem.net/u/guy293/
+-- Tweaked by Campinchris (Added ESX only Diff animation for Police and Non Police)
+-- Converted by Muzzy (Converted from ESX to QBCore and added more weapons)
+----------------------------------------------------------------
+
+Config 				  = {}
+Config.CooldownPolice = 700
+Config.cooldown		  = 1700
+
+-- Add/remove weapon hashes here to be added for holster checks.
+Config.Weapons = {
+	'WEAPON_KNIFE',
+    'WEAPON_NIGHTSTICK',
+    'WEAPON_BREAD',
+    'WEAPON_FLASHLIGHT',
+    'WEAPON_HAMMER',
+    'WEAPON_BAT',
+    'WEAPON_GOLFCLUB',
+    'WEAPON_CROWBAR',
+    'WEAPON_BOTTLE',
+    'WEAPON_DAGGER',
+    'WEAPON_HATCHET',
+    'WEAPON_MACHETE',
+    'WEAPON_BATTLEAXE',
+    'WEAPON_POOLCUE',
+    'WEAPON_WRENCH',
+    'WEAPON_PISTOL',
+    'WEAPON_PISTOL_MK2',
+    'WEAPON_COMBATPISTOL',
+    'WEAPON_APPISTOL',
+    'WEAPON_PISTOL50',
+    'WEAPON_REVOLVER',
+    'WEAPON_SNSPISTOL',
+    'WEAPON_HEAVYPISTOL',
+    'WEAPON_VINTAGEPISTOL',
+    'WEAPON_MICROSMG',
+    'WEAPON_SMG',
+    'WEAPON_ASSAULTSMG',
+    'WEAPON_MINISMG',
+    'WEAPON_MACHINEPISTOL',
+    'WEAPON_COMBATPDW',
+    'WEAPON_PUMPSHOTGUN',
+    'WEAPON_SAWNOFFSHOTGUN',
+    'WEAPON_ASSAULTSHOTGUN',
+    'WEAPON_BULLPUPSHOTGUN',
+    'WEAPON_HEAVYSHOTGUN',
+    'WEAPON_ASSAULTRIFLE',
+    'WEAPON_CARBINERIFLE',
+    'WEAPON_ADVANCEDRIFLE',
+    'WEAPON_SPECIALCARBINE',
+    'WEAPON_BULLPUPRIFLE',
+    'WEAPON_COMPACTRIFLE',
+    'WEAPON_MG',
+    'WEAPON_COMBATMG',
+    'WEAPON_GUSENBERG',
+    'WEAPON_SNIPERRIFLE',
+    'WEAPON_HEAVYSNIPER',
+    'WEAPON_MARKSMANRIFLE',
+    'WEAPON_GRENADELAUNCHER',
+    'WEAPON_RPG',
+    'WEAPON_STINGER',
+    'WEAPON_MINIGUN',
+    'WEAPON_GRENADE',
+    'WEAPON_STICKYBOMB',
+    'WEAPON_SMOKEGRENADE',
+    'WEAPON_BZGAS',
+    'WEAPON_MOLOTOV',
+    'WEAPON_DIGISCANNER',
+    'WEAPON_FIREWORK',
+    'WEAPON_MUSKET',
+    'WEAPON_STUNGUN',
+    'WEAPON_HOMINGLAUNCHER',
+    'WEAPON_PROXMINE',
+    'WEAPON_FLAREGUN',
+    'WEAPON_MARKSMANPISTOL',
+    'WEAPON_RAILGUN',
+    'WEAPON_DBSHOTGUN',
+    'WEAPON_AUTOSHOTGUN',
+    'WEAPON_COMPACTLAUNCHER',
+    'WEAPON_PIPEBOMB',
+    'WEAPON_DOUBLEACTION',
+}
