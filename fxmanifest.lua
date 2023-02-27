@@ -5,6 +5,5 @@ description 'Made by Muzzy'
 version '1.0.1'
 
 client_scripts {
-	'config.lua',
-	'client/client.lua'
+	'weaponholster.lua',
 }
