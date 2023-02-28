@@ -1,6 +1,7 @@
 ------------------------------------------------------------------------
 --- DO NOT CHANGE ANYTHING BELOW IF YOU DON'T KNOW WHAT YOU'RE DOING ---
 ------------------------------------------------------------------------
+local QBCore = exports['qb-core']:GetCoreObject()
 
 local holstered  = true
 local blocked	 = false
